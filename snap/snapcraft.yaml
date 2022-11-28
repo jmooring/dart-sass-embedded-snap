@@ -7,8 +7,8 @@ description: |
   side of the Embedded Sass protocol. It's designed to be embedded in a host
   language, which then exposes an API for users to invoke Sass and define
   custom functions and importers.
-grade: devel # must be 'stable' to release into candidate/stable channels
-confinement: strict # use 'strict' once you have the right plugs and slots, else devmode
+grade: stable
+confinement: strict
 apps:
   dart-sass-embedded:
     command: dart-sass-embedded
