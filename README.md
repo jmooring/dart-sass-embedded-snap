@@ -4,7 +4,7 @@ Embedded Dart Sass is a wrapper for [Dart Sass] that implements the compiler sid
 
 Project: <https://github.com/sass/dart-sass-embedded>
 
-Package: TBD
+Package: <https://snapcraft.io/dart-sass-embedded>
 
 ## Install and remove
 
