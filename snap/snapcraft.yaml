@@ -14,6 +14,8 @@ confinement: strict
 apps:
   dart-sass-embedded:
     command: dart-sass-embedded
+    plugs:
+      - home
 parts:
   binary:
     plugin: dump
