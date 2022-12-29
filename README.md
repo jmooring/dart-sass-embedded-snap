@@ -8,6 +8,9 @@ Package: <https://snapcraft.io/dart-sass-embedded>
 
 ## Install and remove
 
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/dart-sass-embedded)
+
+
 Use the commands below to install or remove:
 
 ```text
