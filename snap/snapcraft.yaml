@@ -1,14 +1,6 @@
 name: dart-sass-embedded
+version: '1.62.1'
 base: core22
-version: '1.61.0'
-summary: A Snap package to install Embedded Dart Sass
-description: |
-  Embedded Dart Sass is a wrapper for Dart Sass that implements the compiler
-  side of the Embedded Sass protocol. It's designed to be embedded in a host
-  language, which then exposes an API for users to invoke Sass and define
-  custom functions and importers.
-
-  Project page: https://github.com/sass/dart-sass-embedded
 grade: stable
 confinement: strict
 apps:
@@ -20,10 +12,23 @@ parts:
   binary:
     plugin: dump
     source:
-      - on amd64: https://github.com/sass/dart-sass-embedded/releases/download/1.61.0/sass_embedded-1.61.0-linux-x64.tar.gz
-      - on arm64: https://github.com/sass/dart-sass-embedded/releases/download/1.61.0/sass_embedded-1.61.0-linux-arm64.tar.gz
+      - on amd64: https://github.com/sass/dart-sass-embedded/releases/download/1.62.1/sass_embedded-1.62.1-linux-x64.tar.gz
+      - on arm64: https://github.com/sass/dart-sass-embedded/releases/download/1.62.1/sass_embedded-1.62.1-linux-arm64.tar.gz
 architectures:
 - build-on:  amd64
   build-for: amd64
 - build-on:  amd64
   build-for: arm64
+icon: logo.png
+license: MIT
+contact: https://github.com/jmooring/dart-sass-embedded-snap
+source-code: https://github.com/jmooring/dart-sass-embedded-snap
+title: Embedded Dart Sass
+summary: A Snap package to install Embedded Dart Sass
+description: |
+  Embedded Dart Sass is a wrapper for Dart Sass that implements the compiler
+  side of the Embedded Sass protocol. It's designed to be embedded in a host
+  language, which then exposes an API for users to invoke Sass and define
+  custom functions and importers.
+
+  Project page: https://github.com/sass/dart-sass-embedded
