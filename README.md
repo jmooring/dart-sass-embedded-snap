@@ -1,3 +1,8 @@
+> [!Note]
+> The Dart Sass team discontinued Embedded Dart Sass, with v1.62.1 as the final release. Dart Sass v1.63.0 and later include the embedded compiler, accessible by running `sass --embedded`.
+
+---
+
 # Snap package for Embedded Dart Sass
 
 [![dart-sass-embedded](https://snapcraft.io/dart-sass-embedded/badge.svg)](https://snapcraft.io/dart-sass-embedded)
